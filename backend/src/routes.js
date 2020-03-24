@@ -8,3 +8,5 @@ routes.get('/users', (req, res) => {
         user: 'Ricardo Medeiros'
     });
 });
+
+module.exports = routes;
