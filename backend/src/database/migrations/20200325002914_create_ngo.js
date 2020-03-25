@@ -2,7 +2,7 @@
 exports.up = function(knex) {
   
     //  Create ngo table
-    return knex.schema.createTable('ngo', function (table) {
+    return knex.schema.createTable('ngotable', function (table) {
 
         // Primary key
         table.string('id').primary();
@@ -18,6 +18,6 @@ exports.up = function(knex) {
 exports.down = function(knex) {
 
     // If fails to create table ngo
-    return knex.schema.dropTable('ngo');
+    return knex.schema.dropTable('ngotable');
   
 };
