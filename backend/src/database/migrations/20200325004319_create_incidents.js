@@ -13,7 +13,7 @@ exports.up = function(knex) {
         
         // Foreign key
         table.string('ngo_id').notNullable();
-        table.foreign('ngo_id').references('id').inTable('ngo');
+        table.foreign('ngo_id').references('id').inTable('ngotable');
     });
   
 };
