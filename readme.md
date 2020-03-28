@@ -14,7 +14,7 @@ This project was built using:
 - [Expo](https://expo.io/)
 - [Express](https://expressjs.com/)
 - [React](https://reactjs.org/)
-
+- [React Native](https://reactnative.dev/)
 
 ### :muscle: Project
 
