@@ -15,6 +15,8 @@ This project was built using:
 - [Express](https://expressjs.com/)
 - [React](https://reactjs.org/)
 - [React Native](https://reactnative.dev/)
+- [Knex](http://knexjs.org/)
+- [SQLite](https://www.sqlite.org/)
 
 ### :muscle: Project
 
