@@ -1,5 +1,5 @@
+const generateUniqueId = require('../utils/generateUniqueId');
 const connection = require('../database/connection');
-const crypto = require('crypto');
 
 module.exports = {
 
@@ -13,8 +13,7 @@ module.exports = {
     async create(req, res) {
         const { name, email, phone, city, state } = req.body;
 
-        // Generate ID
-        const id = crypto.randomBytes(4).toString('HEX');
+        const id = generateUniqueId();
 
         // Connect to database
         await connection('ngotable').insert({
